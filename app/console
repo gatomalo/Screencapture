@@ -5,7 +5,7 @@
 require_once realpath( __DIR__ . '/../' ) . '/vendor/autoload.php';
 
 use Symfony\Component\Console\Application;
-use P24\Console\Command\ScreencaptureCommand;
+use clickalicious\Console\Command\ScreencaptureCommand;
 
 $application = new Application();
 $application->add(new ScreencaptureCommand());
