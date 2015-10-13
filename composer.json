@@ -1,0 +1,61 @@
+{
+  "name": "clickalicious/screencapture",
+  "description": "Screencapture - PHP + PhantomJS based crawler & screen capture tool.",
+  "authors": [
+    {
+      "name": "Benjamin Carl",
+      "email": "opensource@clickalicious.de",
+      "homepage": "https://www.clickalicious.de",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "symfony/console": "~2.7.5",
+    "shrikeh/teapot": "~1.0.2",
+    "symfony/var-dumper": "~2.7.5",
+    "openbuildings/spiderling": "~0.2.9"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5.0.0",
+    "satooshi/php-coveralls": "dev-master as 1.0.x-dev"
+  },
+  "autoload": {
+    "psr-0": {
+      "": "src/"
+    }
+  },
+  "include-path": [
+    "src/"
+  ],
+  "minimum-stability": "dev",
+  "keywords": [
+    "screenshot",
+    "screencapture",
+    "capture",
+    "screen",
+    "record",
+    "phantomjs"
+  ],
+  "homepage": "https://www.clickalicious.de/",
+  "license": [
+    "BSD-2-Clause"
+  ],
+  "support": {
+    "email": "opensource@clickalicious.de",
+    "issues": "https://github.com/clickalicious/Screencapture/issues",
+    "wiki": "https://github.com/clickalicious/Screencapture/wiki"
+  },
+  "config": {
+    "bin-dir": "bin",
+    "preferred-install": "dist",
+    "platform": {
+      "php": "5.6.0"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}
